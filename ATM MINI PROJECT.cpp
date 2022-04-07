@@ -131,7 +131,7 @@ int main()
 			case 1:
 				system("cls");
 				p1.get_balance();
-				_getch();
+				getch();
 				break;
 			
 			case 2:
@@ -139,13 +139,13 @@ int main()
 				cout<<"Please enter the amount :  ";
 				cin>>bal;
 				p1.cash_withdraw(bal);
-				_getch();
+				getch();
 				break;
 				
 			case 3:
 				system("cls");
 				p1.user_details();
-				_getch();
+				getch();
 				break;
 				
 			case 4:
@@ -155,7 +155,7 @@ int main()
 				cout<<"Please enter new mobile no :  ";
 				cin>>new_mob;
 				p1.update_mobile(old_mob,new_mob);
-				_getch();
+				getch();
 				break;
 				
 			case 5:
